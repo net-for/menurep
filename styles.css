@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.menu-container {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.menu-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #f9a825;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.player-info p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+.menu-options {
+    margin-top: 20px;
+}
+
+.menu-options button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: #f9a825;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.menu-options button:hover {
+    background: #c17900;
+}
